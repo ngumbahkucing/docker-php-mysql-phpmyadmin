@@ -1,7 +1,8 @@
-Docker for PHP, MySQL, Phpmyadmin
+Docker Container for PHP, MySQL, Phpmyadmin with Multiple Database
 
-Start:
+Start: (build and debug)
 $ docker compose up --build
+(if no error, you can run docker as daemon with: docker compose up -d)
 
 Stop:
 $ docker compose down
@@ -13,4 +14,3 @@ Phpmyadmin:
 Open http://localhost:8000
 
 
-Multiple database is not working yet
