@@ -6,7 +6,7 @@ services:
         ports:
             - "8001:80"
         volumes:
-            - ../../xampp74/htdocs:/var/www/html/
+            - ./www:/var/www/html/
         links:
             - db
         networks:
@@ -38,5 +38,5 @@ services:
             MYSQL_USER: klikgss
             MYSQL_PASSWORD: qwe-123-123
             MYSQL_ROOT_PASSWORD: qwe-123-123
-volumes:
-    persistent:
+#volumes:
+#    persistent:
